@@ -6,6 +6,11 @@ Implementaciones necesarias para iniciar una aplicaciones en React Native.
 * Expo 42
 * Nativebase 3
 
-### Comandos necesarios ###
+### Requisitos para inicializar la app ###
 
-* npm i
+- Instalar Node JS
+- npm install --global expo-cli (desde terminal windows)
+- npm i (terminal en el  proyecto)
+- expo start
+- Instalar en el móvil Expo Go
+- Escanear el código QR
