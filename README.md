@@ -7,8 +7,6 @@ Implementaciones necesarias para iniciar una aplicaciones en React Native.
 * Nativebase 3
 * Reducks
 * Navegación
-* Navegación por tabs (Pendiente)
-* Menú desplegable (Pendiente)
 
 ### Requisitos para inicializar la app ###
 
