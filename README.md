@@ -1,4 +1,5 @@
 # Boilerplate #
+
 Implementaciones necesarias para iniciar una aplicaciones en React Native.
 
 ### Implementaciones ###
@@ -8,3 +9,5 @@ Implementaciones necesarias para iniciar una aplicaciones en React Native.
 * Reducks
 * Navegación
 * EAS
+
+Donate - https://ko-fi.com/couoheduardo
