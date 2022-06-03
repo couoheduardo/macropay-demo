@@ -42,14 +42,14 @@ module.exports = () => {
         return {
             ...commonConfig,
             "name": "Expo React Native Template",
-            "slug": "baja-tu-seguro",
+            "slug": "Expo-React-Native-Template",
             "version": "5.33",
             "android": android
         };
     } else if (process.env.APP_ENV === "expo") {
         return {
             ...commonConfig,
-            "name": "Bajatuseguro (Development)",
+            "name": "Expo React Native Template",
             "slug": "Expo-React-Native-Template",
             "version": "1.0.0",
             "ios": ios,
