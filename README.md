@@ -1,7 +1,3 @@
-# Boilerplate #
-
-Implementaciones necesarias para iniciar una aplicaciones en React Native.
-
 ### Implementaciones ###
 
 * Expo 45
