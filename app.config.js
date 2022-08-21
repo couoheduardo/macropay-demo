@@ -28,7 +28,10 @@ const android = {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
     },
-    "package": 'com.frontalweb.macropaydemo'
+    "package": 'com.frontalweb.macropaydemo',
+    "permissions": [
+        'ACCESS_NETWORK_STATE'
+    ]
 };
 module.exports = () => {
     if (process.env.APP_ENV === "ios") {

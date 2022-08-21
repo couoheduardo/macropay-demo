@@ -2,7 +2,6 @@ import axios from "axios";
 
 
 const axiosInstance = axios.create({
-    baseURL: 'http://testandroid.macropay.com.mx',
     headers: {
         Accept: "application/json",
     }
