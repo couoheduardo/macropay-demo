@@ -1,9 +1,9 @@
-import {createStore, combineReducers, compose, applyMiddleware} from "redux"
+import {applyMiddleware, combineReducers, createStore} from "redux"
 import thunk from "redux-thunk"
-import productsDuck from "./ducks/productsDuck";
+import appDuck, {bootAction} from "./ducks/appDuck";
 
 const rootReducer = combineReducers({
-    productsDuck: productsDuck,
+    appDuck: appDuck
 })
 
 export const store = createStore(
@@ -12,6 +12,14 @@ export const store = createStore(
 )
 
 export default () => {
-    //savedSession()(store.dispatch)
+    (async () => {
+        try {
+            bootAction()(store.dispatch)
+
+        } catch (e) {
+            console.log('store error => ', e.toString())
+        }
+    })()
     return store
 }
+

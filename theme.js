@@ -4,14 +4,29 @@ export const theme = extendTheme({
     components: {
         Text: {
             baseStyle: {
-                color: 'emerald.400'
+                color: 'blue'
             },
-            defaultProps: { size: 'lg' },
+            defaultProps: {size: 'lg'},
             sizes: {
-                xl: { fontSize: '64px' },
-                lg: { fontSize: '32px' },
-                md: { fontSize: '16px' },
-                sm: { fontSize: '12px' },
+                xl: {fontSize: '64px'},
+                lg: {fontSize: '32px'},
+                md: {fontSize: '16px'},
+                sm: {fontSize: '12px'},
+            },
+        },
+        Input: {
+            baseStyle: {
+                color: '#000',
+            },
+            defaultProps: {
+                color: '#000',
+                size: 'sm'
+            },
+            sizes: {
+                xl: {fontSize: '64px'},
+                lg: {fontSize: '32px'},
+                md: {fontSize: '16px'},
+                sm: {fontSize: '12px'},
             },
         },
     },
